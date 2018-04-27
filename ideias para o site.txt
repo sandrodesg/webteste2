@@ -1,0 +1,21 @@
+- fazer trabalho no photoshop e escritas na diagonal,com a msm cor de background da parte do site.
+
+
+*ENDEREÇOS*
+TERMINAL RODOVIÁRIO NOVO RIO   
+Av Francisco Bicalho, 1, Santo Cristo - Rio de Janeiro, RJ
+
+spots rio
+Av Nossa Senhora de Copacabana, 209 - lj-a - - Copacabana - Rio de Janeiro, RJ
+
+PADARIA E CONFEITARIA POMAR DA BARRA
+Av Belisário Leite de Andrade Neto, 391 - lj-B - - Barra da Tijuca - Rio de Janeiro, RJ - CEP: 22621-270
+
+PANIFICAÇÃO E CONFEITARIA ATLÂNTICA
+R Ministro Viveiros de Castro, 53 - Copacabana - Rio de Janeiro, RJ - CEP: 22021-010
+
+
+- ['Charutaria viajantes,Alx,Lembrarte',-22.8993443,-43.2082906],
+        ['Padaria Pomar Da Barra', -23.0120696,-43.30875209999999],
+        ['Panificação e Padaria Atlantica', -22.9638779,-43.1761027],
+         ['Sports Souvenir', -22.9656288,-43.177414],

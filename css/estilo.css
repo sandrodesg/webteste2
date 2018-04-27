@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
+@import url('https://fonts.googleapis.com/css?family=Archivo:400,600i');
+@import url('https://fonts.googleapis.com/css?family=Offside');
+@import url('https://fonts.googleapis.com/css?family=Gruppo');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+p,li,span{font-family: 'Open Sans', sans-serif;}
+.letra{
+	font-size: 60px;
+	margin-top: 100px;
+}
+.container-fluid{
+	margin: 0px;
+	padding: 0px;
+}
+/*texto*/
+p{  
+	color: #000000;
+	font-size: 16px;
+
+}
+.titulo{
+	font-family: 'Offside', cursive;
+	color: #000000;
+	padding-top: 10px;
+}
+/*menu*/
+.navbar{
+	background-color: #000000;
+    
+}
+.navbar li a {
+    	font-family: 'Offside', cursive;
+    
+ }
+.navbar a:hover{
+	background-color: #fff;
+    
+}
+
+.fa-plane{
+	color: #fff;
+}
+/*-----menu------*/
+body{
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	overflow-x: hidden;
+}
+/*header fixo*/
+
+.fundo{
+	position: relative;
+	background-image: url('../img/fundo.jpg');
+	background-repeat: no-repeat;
+	height: 650px;
+	width: 100%;
+	background-size: contain;
+	background-attachment: fixed;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	z-index: 1;
+	
+}
+.fundo h1{
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-size: 50px;
+	position: relative;
+	margin: 0 auto;
+	top: 140px;
+	color:#fff;
+	text-shadow: 1px 1px 0px #000000; 
+}
+.fundo h2{
+	color: #fff;
+	font-family: 'Offside', cursive;
+    margin-top: 200px;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+/*serviços*/
+.comercio{
+	position: relative;
+
+}
+article{
+	margin-top: 70px;
+
+	
+	/*background-color: #C5EFF7;*/
+}
+#quemsomos p{
+	font-size: 25px;
+	margin: 0 auto;
+	text-align: center;
+}
+#quemsomos b{
+	color:#6BB9F0  ;
+}
+.btnloja{
+	position: relative;
+	top: 20px;
+}
+.btnloja a{
+   background-color: #6BB9F0 ;
+   padding: 10px;
+   color:#fff;
+   text-decoration: none;
+   box-shadow: 1px 1px 0px 0px #000000;
+}
+/*destaque*/
+#destaque h2{
+	margin-top: 100px;
+  font-family: 'Offside', cursive;
+}
+/*-----------------------*/
+/*slid loja*/
+.divslider{
+	width: :100%;
+	padding: 0;
+	margin: 0;
+}
+/*cliente*/
+#cliente{
+  margin-top: 150px;	
+}
+.thumbnail a{
+  font-family: 'Offside', cursive;
+}
+.caption h3{
+  font-family: 'Offside', cursive;	
+}
+.btnmodal h1{
+	color: #000000;
+	border: 3px solid #000000;
+	padding: 5px;
+	transition: all .3s;
+	font-family: 'Offside', cursive;
+}
+.btnmodal h1:hover{
+   color: #fff;
+   background-color:#000000;
+}
+.btnmodal2 b{
+	position: relative;
+	top:20px;
+}
+.btnmodal2{
+	font-size: 30px;
+	height: 100px;
+	font-family: 'Offside', cursive;
+	text-align: center;
+	background-color: #B7D3F2;
+	color:#80A1D4;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+/*mapa tradicional*/
+
+/*#map {
+	height: 100%;
+} 
+#btnmapa{
+	position: relative;
+	width: 240px;
+	height: 30px;
+	background-color: #fff;
+	z-index: 1000;
+	top:110px;
+	left: 10px;
+}  
+#btnmapa input{
+	margin-left: 5px
+}*/
+.mapa{
+	margin-bottom: 10px;
+}
+#mapa{
+
+	height: 700px;
+}
+#mapa h2{
+	margin-top: 80px;
+}
+#mapa p{
+	
+	color: #000000;
+}
+
+#map_wrapper {
+    height: 700px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 100%;
+}
+#map p{
+       background-color: #fff;
+}
+#escondido{
+	color: #000000;
+}
+/*quem somos*/
+
+  /*border-radius: 661px;*/
+
+}
+#rodape{
+	background-color: #000000;
+}
+footer{
+	background-color: #000000;
+	height: auto;
+	margin-top: 20px;
+}
+footer ul li{
+	color: #fff;
+	list-style: none;
+	
+}
+footer h4{
+	font-family: 'Offside', cursive;
+	border-top: solid 1px #fff;
+	color: #fff;
+}
+footer h5{
+	font-family: 'Offside', cursive;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 20px;
+}
+footer p{
+
+	color: #fff;
+}
+footer h5{
+	color: #fff;
+	text-align: center;
+	font-family: 'Offside', cursive;
+
+}
+footer .col-md-4{
+		margin-top: 100px;
+
+}
+.form-group label{
+	font-family: 'Offside', cursive;
+}
+/*tirando caixa do input*/
+.form-group input[type="text"],
+.form-group input[type="email"]
+{
+	border:none;
+	border-bottom: 2px solid #000000;
+	background-color: transparent;
+	outline: none;
+	font-family: 'Offside', cursive;
+
+}
+/*Colocar o ALT*/
+/*img[alt=""],img:not([alt]){border: 5px dashed #ff0000;}*/

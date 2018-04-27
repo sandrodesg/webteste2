@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Rouge+Script'); 
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Offside');
+
+
+
+body{
+	background-color: #fff;
+	overflow-x: hidden;
+}
+/*menu*/
+.navbar{
+	background-color:#fff;
+
+
+}
+.navbar a:hover{
+	background-color: #000000;
+
+}
+.navbar li a {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 17px;
+	color:#F9690E;
+
+}	
+
+/*seta*/
+.fa-angle-down {
+	margin: 0 auto;
+}
+.text-center{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+p{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.principal{
+	height: 580px;
+	background-image: url('../img/viajantes1.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: contain;
+	background-attachment: fixed;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	
+	margin-top: 45px;
+}
+
+.principal h1{
+
+	font-family: 'Rouge Script', cursive;
+	color:#000000;
+	font-size: 60px;
+	text-shadow: 1px 1px 0px #fff;
+}
+.texto h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: 300px;
+	color:#fff;
+	
+}
+/*capa inicia adaptado para dispositivos moveis*/
+.princ_peq{
+	height: 380px;	
+	background-image: url('../img/pao2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%
+	background-size: contain;
+	background-attachment: fixed;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	margin-top: 45px;
+}
+
+.princ_peq h1{
+
+	font-family: 'Rouge Script', cursive;
+	color:#000000;
+	font-size: 45px;
+	margin-top: -70px;
+	text-shadow: 1px 1px 0px #fff;
+}
+.texto_peq h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#fff;
+	
+}
+/*--------------------------------------------*/
+.promocao{
+	height: auto;
+	background-color: #;
+	padding-top: 80px;
+	
+}
+.produto{
+	margin-bottom: 50px;
+}
+.semana{
+	
+}
+
+.manha{
+	height: 700px;
+	padding-top: 80px;
+	background-color: #fff;
+	background-image: url('../img/pulso.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+.manha p,h2{
+	color: #000000;
+}
+.tarde{
+	height: auto;
+	background-image: url('../img/pao.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;	
+	padding-top: 80px;
+}
+.tarde h2{
+	padding: 20px;
+	color: #fff;
+}
+.tarde p{
+	color: #fff;
+	text-indent: 10px;
+}
+.bloco{
+	background-image: url('../img/transparencia.png');
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.bloco{
+	background-image: url('../img/transparencia.png');
+	margin-top: 50px;
+}
+
+/*imagem circulae css*/
+.tarde img{
+	padding: 5px;/*espaçamento entra a imagem e a borda*/
+	border:2px solid #fff;
+}
+.circulo{
+	border-radius: 50%;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 200px;
+	height: 200px;
+}
+/***********************/
+.parte3{
+	height: 440px;
+	background-image: url('../img/viajantes1.png');
+}
+.parte3 h2{
+	border-top:solid 1px #fff;
+	border-bottom:solid 1px #fff;
+	padding: 5px;
+	color: #fff;
+
+
+}
+.parte3 p{
+	position: relative;
+	top: 9%;	
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align:justify; /*formatação dos textos*/
+	text-indent:50px;
+
+}
+
+.convite h2{
+	color:#000000;
+	height: 70px;
+
+}
+.email{
+	transition: all 2s ;
+	padding: 10px;
+	color:#000000;
+}
+.email:hover{
+	background-color:#E67E22 ;
+}
+#ass{
+	font-family: 'Rouge Script', cursive;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 35px;
+	margin-right: 60px;
+}
+.parte4{
+	height: 440px;
+	background-color: #fff;
+}
+footer{
+	background-color: #000000;
+	height: auto;
+	margin-top: 20px;
+}
+footer ul li{
+	color: #fff;
+	list-style: none;
+	
+}
+footer h4{
+	font-family: 'Offside', cursive;
+	border-top: solid 1px #fff;
+	color: #fff;
+}
+footer h5{
+	font-family: 'Offside', cursive;
+	color: #fff;
+	font-size: 15px;
+	margin-top: 20px;
+	text-align: center;
+}
+footer p{
+
+	color: #fff;
+}
+footer .col-md-4{
+	margin-top: 100px;
+
+}
+.up {
+	color: #fff;
+	margin-left: 35%;
+}
+
+.direitos{
+	color: #fff;
+
+
+}
+
+/*Colocar o ALT*/
+/*img[alt=""],img:not([alt]){border: 5px dashed #ff0000;}*/
